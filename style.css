@@ -1,0 +1,42 @@
+.child{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    padding: 20px;
+    border: 1px solid white;
+}
+.parent{
+    margin-top: 25px;
+    background-color: rgb(223, 220, 220);
+}
+#equal{
+    grid-column: 3/5;
+}
+.displayScreen{
+    grid-column: 1/5;
+    margin-bottom: 15px;
+    height: 40px;
+    border: none;
+}
+#clear{
+    color: red;
+}
+#op{
+    color: rgb(7, 104, 196);
+}
+body{
+    display: grid;
+    place-content: center;
+    max-height: 100vh;
+}
+button{
+    border: none;
+    background-color: gainsboro;
+}
+.btn:hover:hover{
+    background-color: rgb(94, 95, 94)
+}
+h1,p{
+    margin: auto;
+    padding-bottom: 10px;
+}
